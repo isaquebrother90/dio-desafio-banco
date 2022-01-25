@@ -1,0 +1,16 @@
+package services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.BancoEntity;
+
+public class BancoService {
+	
+	public List<BancoEntity> listarClientes(BancoEntity banco) {
+		List<BancoEntity> lista = new ArrayList();
+		lista.addAll(lista);
+		return lista;
+	}
+
+}

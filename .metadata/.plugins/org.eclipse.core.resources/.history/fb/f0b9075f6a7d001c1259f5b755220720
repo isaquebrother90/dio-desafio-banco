@@ -1,0 +1,14 @@
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Conta implements ContaInterface {
+	
+	private int agencia;
+	private int numero;
+	private double saldo;
+
+}

@@ -1,0 +1,11 @@
+package services;
+
+import entities.BancoEntity;
+
+public class BancoService {
+	
+	public listarClientes(BancoEntity banco) {
+		
+	}
+
+}

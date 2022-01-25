@@ -1,0 +1,8 @@
+
+public interface ContaInterface {
+	
+	void sacar();
+	void depositar();
+	void transferir();
+	
+}

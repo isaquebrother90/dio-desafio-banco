@@ -1,0 +1,30 @@
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+public abstract class Conta implements ContaInterface {
+	
+	protected int agencia;
+	protected int numero;
+	protected double saldo;
+
+	@Override
+	public void sacar(double valor) {
+	}
+
+	@Override
+	public void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(double valor, Conta contaDestino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

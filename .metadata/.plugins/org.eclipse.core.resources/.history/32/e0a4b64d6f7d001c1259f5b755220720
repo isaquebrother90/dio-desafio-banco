@@ -1,0 +1,12 @@
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+public class ContaCorrente extends Conta {
+
+	public void imprimirExtrato() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

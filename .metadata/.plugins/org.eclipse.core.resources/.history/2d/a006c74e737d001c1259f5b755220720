@@ -1,0 +1,25 @@
+import entities.Cliente;
+import entities.ContaCorrente;
+import entities.ContaPoupanca;
+import services.ContaService;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+		Cliente c1 = new Cliente();
+		c1.setNome("Fernando");
+
+		ContaService cc = new ContaCorrente(c1);
+		cc.depositar(100);
+		
+		ContaService cp = new ContaPoupanca(c1);
+		
+		cc.transferir(100, cp);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		
+	}
+
+}
